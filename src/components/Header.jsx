@@ -7,7 +7,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Leaf className="w-8 h-8 text-amber-600" />
+            <img src="./images/logo2.png" alt="Logo" className="w-10 h-10" />
+            {/* <Leaf className="w-8 h-8 text-amber-600" /> */}
             <h1 className="text-2xl font-bold text-gray-800">Sâm Premium</h1>
           </div>
           <nav className="hidden md:flex space-x-6">
