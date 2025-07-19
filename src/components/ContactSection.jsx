@@ -131,29 +131,29 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Hotline 24/7",
-      value: "0901 234 567",
+      value: "0968 127 968",
       subtitle: "Tư vấn miễn phí",
       color: "from-green-500 to-emerald-500",
       bgColor: "from-green-50 to-emerald-50",
-      href: "tel:0901234567"
+      href: "tel:0968127968"
     },
     {
       icon: Mail,
       title: "Email hỗ trợ",
-      value: "info@sampremium.com",
+      value: "haunv@sampremium.com",
       subtitle: "Phản hồi trong 2h",
       color: "from-blue-500 to-cyan-500",
       bgColor: "from-blue-50 to-cyan-50",
-      href: "mailto:info@sampremium.com"
+      href: "mailto:haunv@sampremium.com"
     },
     {
       icon: MapPin,
-      title: "Showroom chính",
-      value: "123 Đường ABC, Quận 1",
-      subtitle: "TP.HCM - Ghé thăm trực tiếp",
+      title: "Văn phòng chính",
+      value: "33 Đường Hải Hồ, Quận Hải Châu, TP. Đà Nẵng",
+      subtitle: "Ghé thăm trực tiếp - Gặp a Hậu",
       color: "from-red-500 to-orange-500",
       bgColor: "from-red-50 to-orange-50",
-      href: "https://maps.google.com"
+      href: "https://www.google.com/maps/place/33+%C4%90.+H%E1%BA%A3i+H%E1%BB%93,+Thanh+B%C3%ACnh,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000,+Vietnam/@16.0704771,108.2170004,15z/data=!4m6!3m5!1s0x31421838881c0a51:0x4e05520b362b7f5c!8m2!3d16.0787744!4d108.2147924!16s%2Fg%2F11fsjj09dy?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
     }
   ];
 

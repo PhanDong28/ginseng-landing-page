@@ -101,7 +101,7 @@ const Header = () => {
                   isScrolled ? 'text-xl' : 'text-2xl'
                 }`}>
                   <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
-                    Sâm Premium
+                    Sâm Hậu A
                   </span>
                 </h1>
                 <p className="text-xs text-gray-500 font-medium">Chất lượng cao cấp</p>

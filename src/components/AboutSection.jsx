@@ -45,7 +45,7 @@ const AboutSection = () => {
               Câu chuyện của chúng tôi
         </div>
         <h2 className="text-5xl font-black text-gray-800 mb-6 leading-tight">
-              Về <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">Sâm Premium</span>
+              Về <span className="bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">Sâm Hậu A</span>
         </h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-xl text-gray-700 mb-6 leading-relaxed">
