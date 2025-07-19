@@ -28,7 +28,7 @@ const Footer = () => {
               Uy tín hàng đầu Việt Nam với hơn 15 năm kinh nghiệm.
         </p>
         <div className="flex space-x-4">
-          <a href="https://www.facebook.com/share/165T7sFiNg/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl" aria-label="Facebook">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl" aria-label="Facebook">
             <Facebook className="w-5 h-5 text-white" />
           </a>
           <a href="#" className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl" aria-label="Zalo">
