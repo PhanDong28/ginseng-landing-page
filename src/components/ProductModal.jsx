@@ -1,8 +1,16 @@
 import React from 'react';
-import { Leaf, Star } from 'lucide-react';
+import { Leaf, Star, MessageCircle } from 'lucide-react';
 
 const ProductModal = ({ product, onClose }) => {
   if (!product) return null;
+
+  // URL Facebook của bạn - thay thế bằng link thực tế
+  const FACEBOOK_PAGE_URL = 'https://www.facebook.com/hau.us99';
+  
+  const handleContactOrder = () => {
+    // Mở trang Facebook trong tab mới
+    window.open(FACEBOOK_PAGE_URL, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
@@ -15,7 +23,7 @@ const ProductModal = ({ product, onClose }) => {
           
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <img src={product.image} alt={product.name} className="w-full h-64 object-cover rounded-lg" />
+              <img src={product.image} alt={product.name} className="w-full h-96 object-cover rounded-lg" />
             </div>
             
             <div>
@@ -47,9 +55,19 @@ const ProductModal = ({ product, onClose }) => {
                 </ul>
               </div>
               
-              <button className="w-full bg-gradient-to-r from-amber-600 to-amber-700 text-white py-3 px-6 rounded-lg font-semibold hover:from-amber-700 hover:to-amber-800 transition-all duration-300">
-                Liên hệ đặt hàng
+              <button 
+                onClick={handleContactOrder}
+                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 flex items-center justify-center"
+              >
+                <MessageCircle className="w-5 h-5 mr-2" />
+                Liên hệ đặt hàng qua Facebook
               </button>
+              
+              <div className="mt-3 text-center">
+                <p className="text-sm text-gray-600">
+                  📱 Nhắn tin trực tiếp để được tư vấn và đặt hàng nhanh chóng
+                </p>
+              </div>
             </div>
           </div>
         </div>
