@@ -5,6 +5,7 @@ export const products = [
     price: "Liên hệ để được tư vấn",
     // originalPrice: "3.200.000 VNĐ",
     image: "./images/pro1.jpg",
+    // image: "./images/pro2.jpg",
     description: "Sâm Hàn Quốc chính hãng, 6 năm tuổi, chất lượng cao, tăng cường sức khỏe và miễn dịch.",
     features: ["Tăng cường miễn dịch", "Chống lão hóa", "Tăng cường trí nhớ", "Giảm stress"],
     rating: 5,
@@ -17,7 +18,7 @@ export const products = [
     // originalPrice: "6.500.000 VNĐ",
     image: "./images/pro2.jpg",
     description: "Sâm Ngọc Linh quý hiếm, tăng sinh lực, cải thiện sức khỏe toàn diện.",
-    features: ["Bồi bổ cơ thể", "Tăng sức đề kháng", "Hỗ trợ tim mạch", "Giảm mệt mỏi"],
+    features: ["Bồi bổ cơ thể", "Tăng sức đề kháng", "Hỗ trợ tim mạch", "Giảm mệt mỏi","Giảm cân"],
     rating: 5,
     reviews: 96
   },
