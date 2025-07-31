@@ -1,0 +1,12 @@
+// Firestore Security Rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Cho phép đọc sản phẩm cho tất cả mọi người
+    match /products/{productId} {
+      allow read: if true;
+      // Chỉ cho phép write từ admin (có thể thêm authentication sau)
+      allow write: if true; // Tạm thời cho phép, nên thêm auth sau
+    }
+  }
+}
