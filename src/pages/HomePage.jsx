@@ -7,15 +7,16 @@ import AboutSection from '../components/AboutSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 import ProductModal from '../components/ProductModal';
+import ChatWidget from '../components/ChatWidget'; // Import chat widget
 
 const HomePage = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const navigate = useNavigate();
-
+  
   const handleGoToAdmin = () => {
     navigate('/admin');
   };
-
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
       <Header />
@@ -24,12 +25,15 @@ const HomePage = () => {
       <AboutSection />
       <ContactSection />
       <Footer />
-      
+     
       {/* Product Modal */}
       <ProductModal
         product={selectedProduct}
         onClose={() => setSelectedProduct(null)}
       />
+      
+      {/* Chat Widget - Thêm vào cuối */}
+      <ChatWidget />
     </div>
   );
 };
